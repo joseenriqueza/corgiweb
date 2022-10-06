@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\groupcrawler"
   ],
-  "SelectedNode": "\\C:\\Users\\Jose.Enriquez\\Source\\Repos\\groupcrawler",
+  "SelectedNode": "\\setup.py",
   "PreviewInSolutionExplorer": false
 }

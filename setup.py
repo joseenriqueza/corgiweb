@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='groupcrawler',
-    version='0.2',
+    version='0.7',
     license='MIT',
     author="Jose Enriquez",
     author_email='joseaenriqueza@hotmail.com',
