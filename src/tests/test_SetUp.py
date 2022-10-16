@@ -1,7 +1,16 @@
 import pytest
 # TODO: read https://docs.pytest.org/en/6.2.x/fixture.html
 # TODO: read https://stackoverflow.com/questions/37353960/pytest-exits-with-no-error-but-with-collected-0-items
-import corgiweb as corgi
+try:
+    import corgiweb as corgi
+except Exception as e:
+    print(e)
+try:
+    import src.corgiweb as corgi
+except Exception as e:
+    print(e)
+
+    
 import logging
 
 _SetUp = corgi.SetUp("Tony")
