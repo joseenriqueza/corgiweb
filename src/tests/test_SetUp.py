@@ -10,7 +10,7 @@ try:
 except Exception as e:
     print(e)
 
-    
+
 import logging
 
 _SetUp = corgi.SetUp("Tony")
