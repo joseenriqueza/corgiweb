@@ -1,2 +1,1 @@
-from setup import *
-from crawler import *
+from corgiweb.setup import *
