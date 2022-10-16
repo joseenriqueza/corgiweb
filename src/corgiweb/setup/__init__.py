@@ -1,0 +1,1 @@
+from corgiweb.setup.SetUp import *
