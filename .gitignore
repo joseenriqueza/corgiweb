@@ -1,2 +1,4 @@
 /dist
 /.vs
+/venv
+/.pytest_cache
