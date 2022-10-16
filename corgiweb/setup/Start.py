@@ -1,4 +1,4 @@
-class SetUp:
+class Start:
 
     def __init__(self, name=""):
         self.name = name
