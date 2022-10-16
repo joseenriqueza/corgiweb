@@ -4,6 +4,14 @@ try:
     import corgiweb.setup as corgi
 except Exception as e:
     print(e)
+try:
+    import corgiweb
+except Exception as e:
+    print(e)
+try:
+    import setup
+except Exception as e:
+    print(e)
 
 import logging
 
