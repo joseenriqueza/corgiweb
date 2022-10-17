@@ -13,13 +13,11 @@ Installing
 
 .. code-block:: bash
 
-    pip install groupcrawler
+    pip install corgiweb
 
 Usage
 =====
 
 .. code-block:: bash
 
-    >>> from src.example import groupcrawler
-    >>> groupcrawler.get_pandas_version()
-    '0.24.2'
+
