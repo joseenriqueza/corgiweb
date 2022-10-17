@@ -2,17 +2,17 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='groupcrawler',
-    version='0.7',
+    name='corgiweb',
+    version='0.1',
     license='MIT',
     author="Jose Enriquez",
     author_email='joseaenriqueza@hotmail.com',
-    packages=find_packages('src'),
-    package_dir={'': 'src'},
+    packages=find_packages('corgiweb'),
+    package_dir={'': 'corgiweb'},
     url='https://dev.azure.com/joseaenriqueza/_git/groupcrawler',
-    keywords='example project',
+    keywords='Demo with testing, send email to get access to repo',
     install_requires=[
-          'pandas',
+          'pytest',
       ],
 
 )
