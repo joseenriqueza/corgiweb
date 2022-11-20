@@ -3,7 +3,7 @@ import urllib.robotparser
 from corgiweb.crawler.ignore_path_list import *
 
 
-class Robots:
+class Robots:  # TODO: Change to Robot
 
     def __init__(self,
                  domain: str = None,  # Website domain address
