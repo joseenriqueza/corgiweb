@@ -4,9 +4,10 @@
 
 import corgiweb as corgi
 
-_Start = corgi.Start("Tony")
-
-def test_should_return_1():
-    assert _Start.get_num_1() == 1
+_Start = corgi.crawler.crawler.Crawler(domain="foxnews.com",  # Website domain address
+                 user_agent= "*",  # User-Agent used to call the website
+                 sitemap_url= "https://www.foxnews.com/sitemap.xml",  # Sitemap url
+                 robots_url = "https://www.foxnews.com/robots.txt",  # Robots.txt url from the website
+                 nodes_to_search= ["https://www.foxnews.com/politics"])  # JSON file with the URLS to search)
 def test_name_should_be_tony():
-    assert _Start.name == "Tony"
+    assert _Start.domain == "foxnews.com"

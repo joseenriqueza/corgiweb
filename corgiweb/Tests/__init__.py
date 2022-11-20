@@ -1,1 +1,0 @@
-from corgiweb.Tests.tests import *
