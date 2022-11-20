@@ -31,6 +31,13 @@ class DataAccess:
             for url in urls:
                 print(url.url)
 
+    def get_len_all_partitions(self, ):
+        count = 0
+        for k, v in self.db.items():
+            urls = v.objects.all()
+            for url in urls:
+                count +=1
+        return count
 
 # if __name__ == "__main__":
 #     data = Data()

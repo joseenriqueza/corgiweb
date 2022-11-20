@@ -4,7 +4,7 @@
 
 import corgiweb as corgi
 
-_Start = corgi.crawler.crawler.Crawler(domain="foxnews.com",  # Website domain address
+_Start = corgi.Crawler(domain="foxnews.com",  # Website domain address
                  user_agent= "*",  # User-Agent used to call the website
                  sitemap_url= "https://www.foxnews.com/sitemap.xml",  # Sitemap url
                  robots_url = "https://www.foxnews.com/robots.txt",  # Robots.txt url from the website

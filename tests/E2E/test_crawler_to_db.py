@@ -39,3 +39,8 @@ for k, v in spiders.items():
 
     for url in v.new_urls:
         data.save_data_on_partitions(k, url)
+
+
+# TODO: Improve E2E tests
+def test_name_should_be_tony():
+    assert data.get_len_all_partitions() > 0
