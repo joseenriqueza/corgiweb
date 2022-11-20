@@ -38,13 +38,3 @@ class DataAccess:
             for url in urls:
                 count +=1
         return count
-
-# if __name__ == "__main__":
-#     data = Data()
-#
-#     data.start_django()
-#
-#     for x in range(0, 3):
-#         data.create_partitions(x)
-#
-#     data.print_all_partitions()
