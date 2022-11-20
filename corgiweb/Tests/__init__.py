@@ -1,1 +1,1 @@
-from corgiweb.setup.Start import *
+from corgiweb.Tests.tests import *
